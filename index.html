@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petrichor Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="container">
+    <h1>Welcome to <span>PETRICHOR</span></h1>
+    <p class="tagline">your one-stop solution to real-time weather updates 🌦️</p>
+
+    <div class="weather-box" id="weatherBox">
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button onclick="getWeather()">Get Weather</button>
+      <img id="weatherIcon" src="" alt="Weather Icon" style="width: 80px; margin-top: 15px;" />
+
+
+      <div id="weatherResult" class="weather-info"></div>
+    </div>
+    
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
